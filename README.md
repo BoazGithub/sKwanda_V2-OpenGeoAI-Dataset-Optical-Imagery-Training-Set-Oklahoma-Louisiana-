@@ -1,5 +1,7 @@
 # <h1 align="center">  <b>sKwanda_V2: OpenGeoAI-Dataset | Optical Imagery Training Set</b><br></h1>
 
+![image](https://github.com/user-attachments/assets/cfaba4c7-0114-4548-bba2-9c6328daeee2)
+
 ### Repository Overview
 The sKwanda_V2: OpenGeoAI-Dataset is a high-resolution optical imagery dataset, designed to support advanced research in geospatial machine learning applications, such as semantic segmentation, land cover classification, and spatial analysis. The dataset provides geospatially referenced image patches that are derived from airborne remote sensing data. The images in this dataset are organized into three subsets—training, validation, and test—each consisting of 512 × 512 pixel patches along with their corresponding ground truth (GT) labels. This dataset is specifically curated for use in supervised learning tasks, enabling the development and evaluation of cutting-edge models in the field of geospatial AI.
 
@@ -19,65 +21,6 @@ Validation Set: This subset is used to tune model hyperparameters and validate t
 Test Set: This subset is used to evaluate the final performance of the trained model, providing an unbiased evaluation on unseen data.
 Each image patch is 512 × 512 pixels, and the dataset contains several spectral bands, typically including Red, Green, Blue, and Near-Infrared (NIR) bands.
 For the sKwanda-V1 dataset, clip the images to 512 × 512 patches. Please, respect the following structure:
-train/
-├── Images/                # Land cover class images
-│   ├── Kigali2023_01.tif
-│   ├── Kigali2023_02.tif
-│   └── ...
-├── Masks/                 # Ground truth masks
-│   ├── Kigali2023_01.tif
-│   ├── Kigali2023_02.tif
-│   └── ...
-
-val/
-├── Images/                # Land cover class images
-│   ├── Musanze2023_01.tif
-│   ├── Musanze2023_02.tif
-│   └── ...
-├── Masks/                 # Ground truth masks
-│   ├── Musanze2023_01.tif
-│   ├── Musanze2023_02.tif
-│   └── ...
-
-test/
-├── Images/                # Land cover class images
-│   ├── Rubavu2023_01.tif
-│   ├── Rubavu2023_02.tif
-│   └── ...
-├── Masks/                 # Ground truth masks
-│   ├── Rubavu2023_01.tif
-│   ├── Rubavu2023_02.tif
-│   └── ...
-
-
-sKwanda-V1/
-├── train/
-│   ├── Images/                              # Images of land cover classes for training
-│   │   ├── <region><year><XY>.tif
-│   │   ├── <region><year><XY>.tif
-│   │   └── ...
-│   ├── Masks/                               # Ground truth masks for training
-│   │   ├── <region><year><XY>.tif
-│   │   ├── <region><year><XY>.tif
-│   │   └── ...
-├── val/
-│   ├── Images/                              # Images of land cover classes for validation
-│   │   ├── <region><year><XY>.tif
-│   │   ├── <region><year><XY>.tif
-│   │   └── ...
-│   ├── Masks/                               # Ground truth masks for validation
-│   │   ├── <region><year><XY>.tif
-│   │   ├── <region><year><XY>.tif
-│   │   └── ...
-├── test/
-│   ├── Images/                              # Images of land cover classes for testing
-│   │   ├── <region><year><XY>.tif
-│   │   ├── <region><year><XY>.tif
-│   │   └── ...
-│   ├── Masks/                               # Ground truth masks for testing
-│   │   ├── <region><year><XY>.tif
-│   │   ├── <region><year><XY>.tif
-│   │   └── ...
 
 
 
