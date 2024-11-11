@@ -1,4 +1,5 @@
-# sKwanda_V2: OpenGeoAI-Dataset | Optical Imagery Training Set
+# <h1 align="center">  <b>sKwanda_V2: OpenGeoAI-Dataset | Optical Imagery Training Set</b><br></h1>
+
 ### Repository Overview
 The sKwanda_V2: OpenGeoAI-Dataset is a high-resolution optical imagery dataset, designed to support advanced research in geospatial machine learning applications, such as semantic segmentation, land cover classification, and spatial analysis. The dataset provides geospatially referenced image patches that are derived from airborne remote sensing data. The images in this dataset are organized into three subsets—training, validation, and test—each consisting of 512 × 512 pixel patches along with their corresponding ground truth (GT) labels. This dataset is specifically curated for use in supervised learning tasks, enabling the development and evaluation of cutting-edge models in the field of geospatial AI.
 
@@ -17,5 +18,36 @@ Training Set: This subset includes images used to train machine learning models.
 Validation Set: This subset is used to tune model hyperparameters and validate the performance during the model development phase.
 Test Set: This subset is used to evaluate the final performance of the trained model, providing an unbiased evaluation on unseen data.
 Each image patch is 512 × 512 pixels, and the dataset contains several spectral bands, typically including Red, Green, Blue, and Near-Infrared (NIR) bands.
+For the sKwanda-V1 dataset, clip the images to 512 × 512 patches. Please, respect the following structure:
+
+├————train/
+|      ├———Images/                                Images of land cover classes
+|            ├———<region><year><XY>.tif
+|            ...
+|            ├———<region><year><XY>.tif
+|      ├———Masks/                                 Ground truth masks (land cover classes)
+|            ├———<region><year><XY>.tif 
+|            ...
+|            ├———<region><year><XY>.tif
+|
+├————val/
+|      ├———Images/  
+|            ├———<region><year><XY>.tif 
+|            ...
+|            ├———<region><year><XY>.tif 
+|      ├———Masks/
+|            ├———<region><year><XY>.tif 
+|            ...
+|            ├———<region><year><XY>.tif
+|
+├————test/
+|      ├———Images/  
+|            ├———<region><year><XY>.tif 
+|            ...
+|            ├———<region><year><XY>.tif 
+|      ├———Masks/
+|            ├———<region><year><XY>.tif 
+|            ...
+|            ├———<region><year><XY>.tif
 
 The .aux file accompanying the dataset provides essential metadata such as the spatial reference system (SRS), geotransformation matrix, and band-specific information. This metadata ensures that spatial and spectral integrity is maintained throughout any preprocessing or transformation of the data.
