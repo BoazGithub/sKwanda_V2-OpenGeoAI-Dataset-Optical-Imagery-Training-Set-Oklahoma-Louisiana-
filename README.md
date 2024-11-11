@@ -50,11 +50,18 @@ The dataset is ideal for supervised learning tasks, particularly in the context 
 ###### Evaluation
 Once the model is trained, the test set can be used to evaluate its performance in an unbiased manner. Metrics such as accuracy, IoU (Intersection over Union), and F1-score can be used to assess model efficacy.
 
-License and Citation
+### License and Citation
 License: The dataset is released under a non-commercial license for academic and research purposes only. For commercial use, please contact the authors.
 
-###### Citation: If you use this dataset in your research, please cite the following:
 
+### :truck: Datasets <a name="dataset"></a>
+
+The full train and test code will be released soon. You can download our novel public sKwanda_V1 dataset through the following link:
+
+- [x] [sKwabda-V1][Google drive](https://drive.google.com/drive/folders/1D7HpbORsItR4IQtyxlpAGm_KFXNlIc1E?usp=drive_link) Password: (qnj0)
+
+###### Citation: If you use this dataset in your research, please cite the following:
+```bibtex
 📃 makefile
 Copy code
 @article{Mwubahimana2024sKwanda,
@@ -65,11 +72,10 @@ journal={IEEE Journal of Geospatial AI},
 volume={XX},
 number={YY},
 pages={ZZ-ZZ},
-}
+```
 
-
-###### Acknowledgments
+#### Acknowledgments
 This dataset was created with the support of the Planetary Science Group at the State Key Laboratory of Information Engineering in Surveying, Mapping, and Remote Sensing of Wuhan University. Special thanks to the L2HNet, Sentinel Hub, and ESRI for their tools and resources, which were instrumental in dataset creation.
 
-###### Contact Information
+#### Contact Information
 For any inquiries or collaboration opportunities, please contact Boaz Mwubahimana at aiboaz1896@gmail.com.
