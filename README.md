@@ -75,7 +75,9 @@ pages={ZZ-ZZ},
 ```
 
 #### Acknowledgments
-This dataset was created with the support of the Planetary Science Group at the State Key Laboratory of Information Engineering in Surveying, Mapping, and Remote Sensing of Wuhan University. Special thanks to the L2HNet, Sentinel Hub, and ESRI for their tools and resources, which were instrumental in dataset creation.
+This dataset was created with the support of the Planetary Science Group at the State Key Laboratory of Information Engineering in Surveying, Mapping, and Remote Sensing of Wuhan University. 
+
+Special thanks to the L2HNet, Sentinel Hub, and ESRI for their tools and resources, which were instrumental in dataset creation.
 
 #### Contact Information
 For any inquiries or collaboration opportunities, please contact Boaz Mwubahimana at aiboaz1896@gmail.com.
