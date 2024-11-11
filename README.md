@@ -48,6 +48,26 @@ Geospatial Integrity: When splitting the images, it is crucial to retain the Geo
 ##### Training Models
 The dataset is ideal for supervised learning tasks, particularly in the context of land cover classification and semantic segmentation. Researchers can train deep learning models using this dataset, ensuring that the model learns spatial patterns and global features with geospatial awareness. Models such as CNNs, Fully Convolutional Networks (FCNs), and Vision Transformers (ViT) are particularly well-suited for this task.
 
+### Some Results made on sKwanda_V2 Dataset are illustrates below:
+
+#### Quantitative Results
+
+![Quantitativd_VHP](https://github.com/user-attachments/assets/21d1a32e-7eab-4711-b4f9-a098f8c1885f)
+
+#### Qualitative Results
+
+
+![nyagate_multimodel_performance_metrics_histograms_with_lines_and_unique_colormap_page-0001](https://github.com/user-attachments/assets/9c1c3e94-46a5-4a65-b35a-229156094ea0)
+
+
+#### State_of_the_Art_Dataset&Methods (SoA)
+
+1. ![image](https://github.com/user-attachments/assets/35db271b-8d92-480d-9f36-24ea08ad41ec)
+
+
+
+2. ![VHF_Para_Dataset_correlation_heatmap5_page-0001](https://github.com/user-attachments/assets/5d3040cb-7e4c-4cde-8b5d-b7b244091aa6)
+
 ###### Evaluation
 Once the model is trained, the test set can be used to evaluate its performance in an unbiased manner. Metrics such as accuracy, IoU (Intersection over Union), and F1-score can be used to assess model efficacy.
 
