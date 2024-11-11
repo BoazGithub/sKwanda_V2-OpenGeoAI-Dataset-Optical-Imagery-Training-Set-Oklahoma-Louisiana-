@@ -37,25 +37,25 @@ Spectral Bands: Each image contains four bands, including Red, Green, Blue, and 
     <NoDataValue>2.55000000000000E+02</NoDataValue>
 </PAMRasterBand>
 
-Usage
-Installation
+#### Usage
+##### Installation
 To begin using the dataset, you can download it via Google Drive (link provided in the repository).
 
 Preprocessing and Patch Extraction
 Patch Extraction: The dataset’s large airborne images have been split into smaller 512 × 512 pixel tiles. This process ensures that the data is manageable and ready for training deep learning models, such as Convolutional Neural Networks (CNNs) and Transformer-based models (ViT).
 Geospatial Integrity: When splitting the images, it is crucial to retain the GeoTIFF metadata, including GeoTransform and projection system information, ensuring that each extracted tile maintains its spatial reference.
-Training Models
+##### Training Models
 The dataset is ideal for supervised learning tasks, particularly in the context of land cover classification and semantic segmentation. Researchers can train deep learning models using this dataset, ensuring that the model learns spatial patterns and global features with geospatial awareness. Models such as CNNs, Fully Convolutional Networks (FCNs), and Vision Transformers (ViT) are particularly well-suited for this task.
 
-Evaluation
+###### Evaluation
 Once the model is trained, the test set can be used to evaluate its performance in an unbiased manner. Metrics such as accuracy, IoU (Intersection over Union), and F1-score can be used to assess model efficacy.
 
 License and Citation
 License: The dataset is released under a non-commercial license for academic and research purposes only. For commercial use, please contact the authors.
 
-Citation: If you use this dataset in your research, please cite the following:
+###### Citation: If you use this dataset in your research, please cite the following:
 
-makefile
+📃 makefile
 Copy code
 @article{Mwubahimana2024sKwanda,
 title={sKwanda V2: OpenGeoAI Dataset for Optical Imagery Training},
@@ -66,8 +66,10 @@ volume={XX},
 number={YY},
 pages={ZZ-ZZ},
 }
-Acknowledgments
+
+
+###### Acknowledgments
 This dataset was created with the support of the Planetary Science Group at the State Key Laboratory of Information Engineering in Surveying, Mapping, and Remote Sensing of Wuhan University. Special thanks to the L2HNet, Sentinel Hub, and ESRI for their tools and resources, which were instrumental in dataset creation.
 
-Contact Information
+###### Contact Information
 For any inquiries or collaboration opportunities, please contact Boaz Mwubahimana at aiboaz1896@gmail.com.
