@@ -57,8 +57,6 @@ The dataset is ideal for supervised learning tasks, particularly in the context 
 #### Qualitative Results
 
 
-![nyagate_multimodel_performance_metrics_histograms_with_lines_and_unique_colormap_page-0001](https://github.com/user-attachments/assets/9c1c3e94-46a5-4a65-b35a-229156094ea0)
-
 
 #### State_of_the_Art_Dataset&Methods (SoA)
 
@@ -70,6 +68,8 @@ The dataset is ideal for supervised learning tasks, particularly in the context 
 
 ###### Evaluation
 Once the model is trained, the test set can be used to evaluate its performance in an unbiased manner. Metrics such as accuracy, IoU (Intersection over Union), and F1-score can be used to assess model efficacy.
+
+![nyagate_multimodel_performance_metrics_histograms_with_lines_and_unique_colormap_page-0001](https://github.com/user-attachments/assets/9c1c3e94-46a5-4a65-b35a-229156094ea0)
 
 ### License and Citation
 License: The dataset is released under a non-commercial license for academic and research purposes only. For commercial use, please contact the authors.
