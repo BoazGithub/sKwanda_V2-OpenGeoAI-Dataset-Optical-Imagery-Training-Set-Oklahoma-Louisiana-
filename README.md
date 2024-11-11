@@ -58,7 +58,7 @@ License: The dataset is released under a non-commercial license for academic and
 
 The full train and test code will be released soon. You can download our novel public sKwanda_V1 dataset through the following link:
 
-- [x] [sKwabda-V1][Google drive](https://drive.google.com/drive/folders/1D7HpbORsItR4IQtyxlpAGm_KFXNlIc1E?usp=drive_link) Password: (qnj0)
+- [x] [sKwabda-V1][Google drive](https://drive.google.com/drive/folders/1D7HpbORsItR4IQtyxlpAGm_KFXNlIc1E?usp=drive_link).
 
 ###### Citation: If you use this dataset in your research, please cite the following:
 ```bibtex
