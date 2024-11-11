@@ -54,16 +54,17 @@ The dataset is ideal for supervised learning tasks, particularly in the context 
 
 ### Some Results made on sKwanda_V2 Dataset are illustrates below:
 
-#### Quantitative Results
+#### Quantitative Results:
 
-![Quantitativd_VHP](https://github.com/user-attachments/assets/21d1a32e-7eab-4711-b4f9-a098f8c1885f)
+![image](https://github.com/user-attachments/assets/23bb198f-e35c-4de1-983c-7a36b8ccbd41)
 
-#### Qualitative Results
+
+#### Qualitative Results:
 
 ![image](https://github.com/user-attachments/assets/def8aca1-0957-4249-a1ed-16bc3dac649f)
 
 
-#### State_of_the_Art_Dataset&Methods (SoA)
+#### State_of_the_Art_Dataset&Methods (SoA): 
 
 1. ![image](https://github.com/user-attachments/assets/35db271b-8d92-480d-9f36-24ea08ad41ec)
 
