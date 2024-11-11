@@ -19,6 +19,36 @@ Validation Set: This subset is used to tune model hyperparameters and validate t
 Test Set: This subset is used to evaluate the final performance of the trained model, providing an unbiased evaluation on unseen data.
 Each image patch is 512 × 512 pixels, and the dataset contains several spectral bands, typically including Red, Green, Blue, and Near-Infrared (NIR) bands.
 For the sKwanda-V1 dataset, clip the images to 512 × 512 patches. Please, respect the following structure:
+train/
+├── Images/                # Land cover class images
+│   ├── Kigali2023_01.tif
+│   ├── Kigali2023_02.tif
+│   └── ...
+├── Masks/                 # Ground truth masks
+│   ├── Kigali2023_01.tif
+│   ├── Kigali2023_02.tif
+│   └── ...
+
+val/
+├── Images/                # Land cover class images
+│   ├── Musanze2023_01.tif
+│   ├── Musanze2023_02.tif
+│   └── ...
+├── Masks/                 # Ground truth masks
+│   ├── Musanze2023_01.tif
+│   ├── Musanze2023_02.tif
+│   └── ...
+
+test/
+├── Images/                # Land cover class images
+│   ├── Rubavu2023_01.tif
+│   ├── Rubavu2023_02.tif
+│   └── ...
+├── Masks/                 # Ground truth masks
+│   ├── Rubavu2023_01.tif
+│   ├── Rubavu2023_02.tif
+│   └── ...
+
 
 sKwanda-V1/
 ├── train/
