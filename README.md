@@ -37,8 +37,12 @@ Spectral Bands: Each image contains four bands, including Red, Green, Blue, and 
 <PAMRasterBand band="1">
     <NoDataValue>2.55000000000000E+02</NoDataValue>
 </PAMRasterBand>
+## Dataset acquisition locations
+sKwanda_V2 dataset are acquired over Nyagatare, and Rwamagana{top-left-corner at red A}, and migration was made over the National Agriculture imagery program{top-left-corner at red B} and CheasaBay land cover products
 
-#### Usage
+![3MVH_ParaNetl_2024](https://github.com/user-attachments/assets/6dbddb6a-6101-4944-84c6-b59101ff4345)
+
+### Usage
 ##### Installation
 To begin using the dataset, you can download it via Google Drive (link provided in the repository).
 
@@ -56,6 +60,7 @@ The dataset is ideal for supervised learning tasks, particularly in the context 
 
 #### Qualitative Results
 
+![image](https://github.com/user-attachments/assets/def8aca1-0957-4249-a1ed-16bc3dac649f)
 
 
 #### State_of_the_Art_Dataset&Methods (SoA)
