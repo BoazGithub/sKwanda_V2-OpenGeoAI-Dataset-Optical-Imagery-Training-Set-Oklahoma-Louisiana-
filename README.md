@@ -20,34 +20,35 @@ Test Set: This subset is used to evaluate the final performance of the trained m
 Each image patch is 512 × 512 pixels, and the dataset contains several spectral bands, typically including Red, Green, Blue, and Near-Infrared (NIR) bands.
 For the sKwanda-V1 dataset, clip the images to 512 × 512 patches. Please, respect the following structure:
 
-├————train/
-|      ├———Images/                                Images of land cover classes
-|            ├———<region><year><XY>.tif
-|            ...
-|            ├———<region><year><XY>.tif
-|      ├———Masks/                                 Ground truth masks (land cover classes)
-|            ├———<region><year><XY>.tif 
-|            ...
-|            ├———<region><year><XY>.tif
-|
-├————val/
-|      ├———Images/  
-|            ├———<region><year><XY>.tif 
-|            ...
-|            ├———<region><year><XY>.tif 
-|      ├———Masks/
-|            ├———<region><year><XY>.tif 
-|            ...
-|            ├———<region><year><XY>.tif
-|
-├————test/
-|      ├———Images/  
-|            ├———<region><year><XY>.tif 
-|            ...
-|            ├———<region><year><XY>.tif 
-|      ├———Masks/
-|            ├———<region><year><XY>.tif 
-|            ...
-|            ├———<region><year><XY>.tif
+sKwanda-V1/
+├── train/
+│   ├── Images/                              # Images of land cover classes for training
+│   │   ├── <region><year><XY>.tif
+│   │   ├── <region><year><XY>.tif
+│   │   └── ...
+│   ├── Masks/                               # Ground truth masks for training
+│   │   ├── <region><year><XY>.tif
+│   │   ├── <region><year><XY>.tif
+│   │   └── ...
+├── val/
+│   ├── Images/                              # Images of land cover classes for validation
+│   │   ├── <region><year><XY>.tif
+│   │   ├── <region><year><XY>.tif
+│   │   └── ...
+│   ├── Masks/                               # Ground truth masks for validation
+│   │   ├── <region><year><XY>.tif
+│   │   ├── <region><year><XY>.tif
+│   │   └── ...
+├── test/
+│   ├── Images/                              # Images of land cover classes for testing
+│   │   ├── <region><year><XY>.tif
+│   │   ├── <region><year><XY>.tif
+│   │   └── ...
+│   ├── Masks/                               # Ground truth masks for testing
+│   │   ├── <region><year><XY>.tif
+│   │   ├── <region><year><XY>.tif
+│   │   └── ...
+
+
 
 The .aux file accompanying the dataset provides essential metadata such as the spatial reference system (SRS), geotransformation matrix, and band-specific information. This metadata ensures that spatial and spectral integrity is maintained throughout any preprocessing or transformation of the data.
