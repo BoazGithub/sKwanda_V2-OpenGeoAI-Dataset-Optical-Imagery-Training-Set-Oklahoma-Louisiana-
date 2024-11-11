@@ -11,7 +11,7 @@ Geospatial Referencing: All images are georeferenced using the NAD83 / UTM Zone 
 Spectral Bands: The dataset includes multiple spectral bands, providing valuable information for advanced remote sensing applications such as multispectral classification and vegetation analysis.
 Ground Truth Labels: Each image patch is paired with corresponding ground truth labels that define the land cover classes (e.g., water, vegetation, urban, etc.) for supervised classification tasks.
 Open Source: The dataset is made publicly available for non-commercial research purposes, contributing to the advancement of geospatial AI for social good and environmental monitoring.
-##### Dataset Structure
+##### 👉 Dataset Structure
 The dataset is organized into three subsets:
 
 Training Set: This subset includes images used to train machine learning models. It contains a diverse set of image patches with labeled ground truth.
