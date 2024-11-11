@@ -1,7 +1,7 @@
 # <h1 align="center">  <b>sKwanda_V2: OpenGeoAI-Dataset | Optical Imagery Training Set</b><br></h1>
 
 
-<h2 align="left">Authors <br></h2>
+<h2 align="left">Data Engineering team:Authors <br></h2>
 
 [![Author](https://img.shields.io/badge/Boaz-MWUBAHIMANA-orange.svg)](https://github.com/BoazGithub) 
 [![Author](https://img.shields.io/badge/YAN-Jianguo-orange.svg)](http://www.lmars.whu.edu.cn/enjianguo-yan/) 
