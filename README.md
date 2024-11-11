@@ -1,5 +1,5 @@
 # sKwanda_V2: OpenGeoAI-Dataset | Optical Imagery Training Set
-Repository Overview
+### Repository Overview
 The sKwanda_V2: OpenGeoAI-Dataset is a high-resolution optical imagery dataset, designed to support advanced research in geospatial machine learning applications, such as semantic segmentation, land cover classification, and spatial analysis. The dataset provides geospatially referenced image patches that are derived from airborne remote sensing data. The images in this dataset are organized into three subsets—training, validation, and test—each consisting of 512 × 512 pixel patches along with their corresponding ground truth (GT) labels. This dataset is specifically curated for use in supervised learning tasks, enabling the development and evaluation of cutting-edge models in the field of geospatial AI.
 
 The dataset comes with additional metadata, including georeferencing information, spectral bands, and spatial resolution parameters, which enable temporal, spectral, and spatial analysis. The data structure is designed to facilitate the preservation of spatial integrity and temporal consistency, ensuring that model training is aligned with real-world geographic contexts.
