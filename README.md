@@ -61,9 +61,9 @@ sKwanda_V2 dataset are acquired over Nyagatare, and Rwamagana{top-left-corner at
 ##### Installation
 To begin using the dataset, you can download it via Google Drive (link provided in the repository).
 
-Preprocessing and Patch Extraction
-Patch Extraction: The dataset’s large airborne images have been split into smaller 512 × 512 pixel tiles. This process ensures that the data is manageable and ready for training deep learning models, such as Convolutional Neural Networks (CNNs) and Transformer-based models (ViT).
-Geospatial Integrity: When splitting the images, it is crucial to retain the GeoTIFF metadata, including GeoTransform and projection system information, ensuring that each extracted tile maintains its spatial reference.
+###### Preprocessing and Patch Extraction
+1. Patch Extraction: The dataset’s large airborne images have been split into smaller 512 × 512 pixel tiles. This process ensures that the data is manageable and ready for training deep learning models, such as Convolutional Neural Networks (CNNs) and Transformer-based models (ViT).
+2. Geospatial Integrity: When splitting the images, it is crucial to retain the GeoTIFF metadata, including GeoTransform and projection system information, ensuring that each extracted tile maintains its spatial reference.
 ##### Training Models
 The dataset is ideal for supervised learning tasks, particularly in the context of land cover classification and semantic segmentation. Researchers can train deep learning models using this dataset, ensuring that the model learns spatial patterns and global features with geospatial awareness. Models such as CNNs, Fully Convolutional Networks (FCNs), and Vision Transformers (ViT) are particularly well-suited for this task.
 
@@ -98,9 +98,9 @@ License: The dataset is released under a non-commercial license for academic and
 
 ### :truck: Datasets <a name="dataset"></a>
 
-The full train and test code will be released soon. You can download our novel public sKwanda_V1 dataset through the following link:
+The full train and test code will be released soon. You can download our novel public sKwanda_V2 dataset through the following link:
 
-- [x] [sKwabda-V1][Google drive](https://drive.google.com/drive/folders/1D7HpbORsItR4IQtyxlpAGm_KFXNlIc1E?usp=drive_link).
+- [x] [sKwabda-V2][Google drive](https://drive.google.com/drive/folders/1D7HpbORsItR4IQtyxlpAGm_KFXNlIc1E?usp=drive_link).
 
 ###### Citation: If you use this dataset in your research, please cite the following:
 ```bibtex
