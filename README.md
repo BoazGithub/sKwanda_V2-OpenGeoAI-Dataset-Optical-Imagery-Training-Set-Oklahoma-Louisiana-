@@ -96,11 +96,13 @@ Once the model is trained, the test set can be used to evaluate its performance 
 License: The dataset is released under a non-commercial license for academic and research purposes only. For commercial use, please contact the authors.
 
 
-### :truck: Datasets <a name="dataset"></a>
+### :truck: Datasets and model <a name="dataset"></a>
 
 The full train and test code will be released soon. You can download our novel public sKwanda_V2 dataset through the following link:
 
 - [x] [sKwabda-V2][Google drive](https://drive.google.com/drive/folders/1D7HpbORsItR4IQtyxlpAGm_KFXNlIc1E?usp=drive_link).
+
+- [x] [C2FNet: Weak supervision learning strategy][Google drive](https://drive.google.com/drive/u/2/folders/1aBNy1f0MCCerNpvHZgLrW3yE059xalg8).
 
 ###### Citation: If you use this dataset in your research, please cite the following:
 ```bibtex
